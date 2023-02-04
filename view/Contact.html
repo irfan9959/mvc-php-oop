@@ -1,0 +1,21 @@
+
+
+  <div class="starter-template">
+    <h1>  <?php echo $pageObj->title;   ?></h1>
+    <p class="lead"><?php echo $pageObj->content ?></p>
+  </div>
+    <form method="post" action="home">
+      <input type="hidden" class="form-control"  name="section" value="contact-us">
+      <input type="hidden" class="form-control"  name="action" value="submit">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="comment" class="form-label">Comments</label>
+          <textarea class="form-control" placeholder="Leave a comment here" id="comment" name="comment"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Comment</button>
+      </form>
+
+
