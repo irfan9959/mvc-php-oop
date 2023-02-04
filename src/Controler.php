@@ -26,5 +26,7 @@ class Controler{
     public function setEntityId($entityId){
         $this->entityId=$entityId;
     }
+
+    //just to learn git
 }
 ?>
